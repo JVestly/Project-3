@@ -9,13 +9,19 @@ To run the code, run the Jupyter notebooks, and the classes.py file.
 All required Python packages are listed in `requirements.txt`.  
 All imports used in the project are handled via the files in the `Code/` directory.
 
-### 1. Clone the repository
+### 1. Setting up the environment
+
+All required Python packages are listed in `requirements.txt`.
+
+After cloning the repository, create and activate a virtual environment, then install dependencies:
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
----
----  
+python -m venv .venv
+source .venv/bin/activate    # macOS / Linux
+.venv\Scripts\activate       # Windows
+
+pip install -r requirements.txt
+```
 ### Contents   
 
 **Code**  
