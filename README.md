@@ -4,7 +4,17 @@ Project authors: Amund Solum Alsvik, Jørgen Vestly & Kristoffer DH Stalker
 
 This repository contains all source code and figures for our research, using PINNs for solving the 1D heat diffusion equation. 
 To run the code, run the Jupyter notebooks, and the classes.py file.
+## Installation
 
+All required Python packages are listed in `requirements.txt`.  
+All imports used in the project are handled via the files in the `Code/` directory.
+
+### 1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd <repository-name>
+---
 ---  
 ### Contents   
 
