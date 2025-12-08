@@ -16,8 +16,8 @@ The Code folder contains:
 - imports.py: contains all imports needed for the running the code.
 - The following test files in jupyter notebooks, useful for benchmarking and as setup examples:  
   - tests.ipynb: contains, in principle all test code for the forward Euler algorithm, but also 3D animations for our solution.
-  - tests_d.ipynb: contains test code for model selection of PINN, meaning finding the best set of hyperparameters yielding the best performance.
-  - tests_helper.ipynb: contains additional testcode for doing nonlinear least squares, and various model comparisons
+  - tests_d.ipynb: contains test code for model selection of PINN, meaning finding the best set of hyperparameters yielding the best performance. GridSearchProsjekt3 contains the whole file for all different models. The best achieved was: MSE: 2.144e-08 | LR=0.001, epochs=5000, layers=4, nodes=100, act=gelu | time=43.42s. Use ctrl+F in this file to check this.
+  - tests_helper.ipynb: contains additional testcode for doing nonlinear least squares, and various model comparisons.
   - classes.py: has test for different network configuration based on activation functions and optimizers.
  
 **Figures**
